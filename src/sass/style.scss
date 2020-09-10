@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: Lato;
+}
+body {
+    position: relative;
+}
+
+@import './base/animations';
+@import './blocks/container';
+@import './blocks/header';
+@import './blocks/timer';
+@import './blocks/menu_item';
+@import './blocks/main';
+@import './blocks/logotyle';
+@import './blocks/intro';
+@import './blocks/abil';
+@import './blocks/footer';
+@import './blocks/social';
+@import './blocks/sections_menu';
+@import './blocks/refill';
+@import './blocks/update';
+@import './blocks/repair';

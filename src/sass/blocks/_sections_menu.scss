@@ -1,0 +1,47 @@
+.section {
+
+    &__wrapper {
+        margin-top: 23px;
+        padding-top: 200px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+    }
+
+    &__logo {
+        width: 270px;
+        height: 225px;
+        margin-right: 18px;
+
+        img {
+            margin: 0 auto;
+            line-height: 225px;
+            transform: translateY(35px);
+        }
+    }
+
+    &__choice {
+        width: 187px;
+        height: 60px;
+        background-color: #141414;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        padding: 1px 10px 1px 5px;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 540px;
+        margin-left: 95px;
+    }
+}

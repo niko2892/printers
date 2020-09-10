@@ -1,0 +1,47 @@
+.header {
+	&__wrapper {
+		float: right;
+		margin-right: 72px;
+		width: 641px;
+		height: 65px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__adress {
+		font-style: normal;
+		font-weight: normal;
+		width: 220px;
+		height: 34px;
+		font-weight: normal;
+		font-size: 14px;
+		color: #000000;
+		opacity: 0.5;
+		margin-right: 14px;
+		text-align: right;
+	}
+	&__tel {
+		width: 238px;
+		height: 65px;
+		padding: 13px 45px 7px 40px ;
+		background: url('../img/tel_bg.png') center center/cover no-repeat;
+		&_wraper {
+			display: block;
+			width: 153px;
+			height: 44px;
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+
+	&__maintel, &__subtel {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+		color: #FFFFFF;
+	}
+
+}

@@ -1,0 +1,77 @@
+.abil {
+    &_animated {
+        animation-name: fadeSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+    &__wrapper {
+        padding-top: 140px;
+        width: 1120px;
+        min-height: 470px;
+        margin: 0 auto;
+    }
+
+    &__descr {
+        display: flex;
+        margin-left: 402px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #141414;
+        text-align: center;
+        span {
+            padding: 17px 4px 5px 4px;
+            width: 246px;
+            height: 39px;
+            background: #141414;
+            color: #fff;
+        }
+    }
+
+    &__subtitle {
+        margin-top: 17px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #141414;
+        span {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+        }
+    }
+
+    &__tel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 204px;
+        height: 58px;
+        margin-left: 144px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+
+    &__maintel {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+
+    &__subtel {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+}

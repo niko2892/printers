@@ -1,0 +1,56 @@
+.timer {
+    
+    &__wrapper {
+        width: 81px;
+        height: 39px;
+        display: flex;
+    }
+
+    &__left {
+        width: 33px;
+        height: 39px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+
+    &__clock {
+        width: 33px;
+        height: 22px;
+        text-align: right;
+        img{
+            width: 19px;
+            height: 22px;
+        }
+    }
+
+    &__dinner {
+        width: 33px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #000000;
+    }
+
+    &__right {
+        padding-top: 5px;
+        width: 38px;
+        height: 39px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+
+    &__worktime, &__dinnertime {
+        height: 38px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        &_red {
+            color: red;
+        }
+    }
+}

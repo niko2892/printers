@@ -1,0 +1,112 @@
+.intro {
+    &_animated {
+        animation-name: fadeSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+    &__wrapper {
+        padding: 136px 196px 0px 290px;
+        
+    }
+
+    &__title {
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        span {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            background-color: #000000;;
+            color: #ffffff;
+            padding: 10px 12px 10px 12px;
+        }
+    }
+
+    &__diagnostic {
+        margin-top: 80px;
+        margin-left: 150px;
+        width: 397px;
+        height: 89px;
+        background: url('../img/diagnostic-bg.png') center center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+
+    &__ptofi {
+        margin-left: 395px;
+        width: 487px;
+        height: 145px;
+        background: url('../img/profi-bg.png') center center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        padding-top: 90px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+
+    &__lowprice {
+        margin-top: 43px;
+        width: 396px;
+        height: 98px;
+        background: url('../img/price-bg.png') center center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+
+    &__garantee {
+        width: 338px;
+        height: 88px;
+        margin-left: 500px;
+        background: url('../img/garant-bg.png') center center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+
+    &__staff {
+        width: 668px;
+        height: 103px;
+        margin-top: 56px;
+        margin-left: 83px;
+        background: url('../img/staff-bg.png') center center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+}
+

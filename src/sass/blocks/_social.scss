@@ -1,0 +1,50 @@
+.social {
+    
+    position: fixed;
+    top: 576px;
+    right: 0;
+    height: 144px;
+    width: 36px;
+    // background-color:red;
+    z-index: 1;
+
+    &__viber {
+        display: block;
+        width: 36px;
+        height: 36px;
+        background-color: #141414;
+        z-index: 2;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    &__insta {
+        display: block;
+        width: 36px;
+        height: 36px;
+        background-color: #ED008E;
+        z-index: 2;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    &__mail {
+        display: block;
+        width: 36px;
+        height: 36px;
+        background-color: #E3E33C;
+        z-index: 2;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    &__telegram {
+        display: block;
+        width: 36px;
+        height: 36px;
+        background-color: #0AA7F7;
+        z-index: 2;
+        text-align: center;
+        line-height: 36px;
+    }
+}

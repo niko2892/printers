@@ -1,0 +1,158 @@
+.repair {
+
+    &__computers {
+        display: block;
+        background-color: #121212;
+        width: 291px;
+        height: 54px;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 54px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        margin-bottom: 29px;
+
+        &_content {
+            margin-left: 14px;
+        }
+
+        &_wrapper {
+            margin-top: 174px;
+            display: flex;
+        }
+
+        &_img {
+            width: 460px;
+            height: 373px;
+            background: url('../img/repair_computers_img.png') center center/cover no-repeat;
+        }
+
+        &_text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: 0.01em;
+            text-indent: 10px;
+            color: #000000;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__printers {
+        display: block;
+        background-color: #121212;
+        width: 255px;
+        height: 54px;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 54px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        margin-bottom: 31px;
+        margin-left: 470px;
+
+        &_wrapper {
+            display: flex;
+            margin: 70px 0 100px 95px;
+            position: relative;
+        }
+
+        &_img {
+            position: absolute;
+            right:   0;
+            width: 378px;
+            height: 498px;
+            background: url('../img/repair_printers_bg.png') center center/cover no-repeat;
+            z-index: -1;
+        }
+
+        &_text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: 0.01em;
+            text-indent: 10px;
+            color: #000000;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__screens {
+        display: block;
+        background-color: #121212;
+        width: 291px;
+        height: 54px;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 54px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        margin-bottom: 29px;
+
+        &_wrapper {
+        }
+
+        &_img {
+        }
+
+        &_text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: 0.01em;
+            text-indent: 10px;
+            color: #000000;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__notebooks {
+        display: block;
+        background-color: #121212;
+        width: 291px;
+        height: 54px;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 54px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        margin-bottom: 29px;
+
+        &_wrapper {
+        }
+
+        &_img {
+        }
+
+        &_text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 145%;
+            letter-spacing: 0.01em;
+            text-indent: 10px;
+            color: #000000;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}
+

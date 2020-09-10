@@ -1,0 +1,61 @@
+.main {
+    &_animated {
+        animation-name: fadeSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+    padding-left: 508px;
+    &__wrapper {
+        padding-top: 152px;
+        margin-right: 128px;
+        width: 730px;
+        min-height: 330px;
+    }
+
+    &__title {
+        h1 {
+            margin-left: 90px;
+            background-color: black;
+            width: 578px;
+            height: 60px;
+            text-align: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 145%;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+        }
+        h2 {
+            margin-left: 193px;
+            top: 30px;
+            margin-right: 65px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 145%;
+            color: #000000;
+            text-align: right;
+            margin-bottom: 21px;
+        }
+        h3 {
+            margin-left: 88px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 145%;
+            letter-spacing: -0.01em;
+            color: #000000;
+           span {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 145%;
+            letter-spacing: -0.01em;
+            color: #000000;
+            opacity: 0.5;
+           }
+        }
+    }
+}
+

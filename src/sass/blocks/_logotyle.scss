@@ -1,0 +1,35 @@
+.logotype {
+    width: 666px;
+    height: 553px;
+    z-index: -1;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    &__img {
+        height: 100%;
+        width: 70%;
+    }
+}
+
+.blot {
+    width: 314px;
+    height: 261px;
+    z-index: -1;
+    position: absolute;
+    top: 550px;
+    left: 310px;
+}
+
+.call {
+    position: absolute;
+    width: 538px;
+    height: 474px;
+    z-index: -1;
+    top: 1335px;
+    left: 727px;
+    &__img {
+        width: 100%;
+    }
+}
+
+
