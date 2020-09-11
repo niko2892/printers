@@ -1,39 +1,30 @@
 .abil {
-    &_animated {
-        animation-name: fadeSection;
-        animation-duration: .8s;
-        animation-fill-mode: forwards;
-    }
+
     &__wrapper {
-        padding-top: 140px;
-        width: 1120px;
-        min-height: 470px;
-        margin: 0 auto;
+        margin-top: 139px;
+        display: flex;
     }
 
-    &__descr {
-        display: flex;
-        margin-left: 402px;
+    &__info {
+        margin-right: 56px;
     }
 
     &__title {
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
-        line-height: 29px;
         color: #141414;
-        text-align: center;
+        margin-bottom: 22px;
+        margin-left: 18px;
         span {
-            padding: 17px 4px 5px 4px;
-            width: 246px;
-            height: 39px;
-            background: #141414;
             color: #fff;
+            background-color: #141414;
+            padding: 5px 2px 5px 2px;
         }
     }
 
-    &__subtitle {
-        margin-top: 17px;
+    &__suubtitle {
+        margin-left: 285px;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -42,36 +33,29 @@
             font-style: normal;
             font-weight: normal;
             font-size: 36px;
+            color: #141414;
         }
     }
 
     &__tel {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 204px;
-        height: 58px;
-        margin-left: 144px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        color: #FFFFFF;
-    }
+        position: relative;
+        line-height: 10px;
+        margin-top: 55px;
 
-    &__maintel {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        color: #FFFFFF;
-    }
+        img {
+            position: absolute;
+            z-index: -1;
+            top: -200px;
+            left: -240px;
+        }
+        a {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
 
-    &__subtel {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        color: #FFFFFF;
+            color: #FFFFFF;
+        }
     }
 }
+

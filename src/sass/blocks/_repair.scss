@@ -102,9 +102,14 @@
         margin-bottom: 29px;
 
         &_wrapper {
+            display: flex;
+            margin-bottom: 100px;
         }
 
         &_img {
+            width: 475px;
+            height: 364px;
+            background: url('../img/repair_screens_bg.png') center center/cover no-repeat;
         }
 
         &_text {
@@ -124,7 +129,7 @@
     &__notebooks {
         display: block;
         background-color: #121212;
-        width: 291px;
+        width: 255px;
         height: 54px;
         text-align: center;
         font-style: normal;
@@ -134,11 +139,20 @@
         letter-spacing: 0.01em;
         color: #FFFFFF;
         margin-bottom: 29px;
+        margin-left: 570px;
 
         &_wrapper {
+            position: relative;
+            display: flex;
         }
 
         &_img {
+            position: absolute;
+            right: 0;
+            width: 409px;
+            height: 352px;
+            background: url('../img/repair_notebooks_bg.png') center center/cover no-repeat;
+            z-index: -1;
         }
 
         &_text {

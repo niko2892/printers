@@ -1,0 +1,144 @@
+.trade {
+
+    &__cartridge {
+        
+        &_wrapper {
+            position: relative;
+            margin-top: 147px;
+            display: flex;
+            margin-bottom: 60px;
+        }
+
+        &_img {
+            position: absolute;
+            right: 0;
+            width: 378px;
+            height: 447px;
+            background: url('../img/trade_cartridge_bg.png') center center/cover no-repeat;
+            z-index: -1;
+        }
+
+        &_text {
+            margin-left: 95px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            color: #000000;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__models {
+
+        &_wrapper {
+            display: flex;
+            margin-bottom: 60px;
+        }
+
+        &_img {
+            width: 255px;
+            height: 289px;
+            background: url('../../img/trade_models_bg.png') center center/cover no-repeat;
+        }
+
+        &_text {
+            margin-left: 30px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            color: #000000;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__reliability {
+
+        &_wrapper {
+            position: relative;
+            display: flex;
+            margin-bottom: 60px;
+        }
+
+        &_img {
+            position: absolute;
+            right: 0;
+            top: -75px;
+            z-index: -1;
+            width: 255px;
+            height: 275px;
+            background: url('../img/trade_reliability_bg.png') center center/cover no-repeat;
+        }
+
+        &_text {
+            margin-left: 95px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            color: #000000;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__original {
+
+        &_wrapper {
+            display: flex;
+            margin-bottom: 60px;
+        }
+
+        &_img {
+            width: 255px;
+            height: 226px;
+            background: url('../img/trade_original_bg.png') center center/cover no-repeat;
+        }
+
+        &_text {
+            margin-left: 30px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            color: #000000;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__text {
+        margin-left: 190px;
+        margin-bottom: 64px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        span {
+            font-weight: 600;
+        }
+    }
+
+    &__contacts {
+        margin-left: 285px;
+    }
+
+    &__icon {
+        right: 85px;
+    }
+
+    &__phone {
+        margin-left: 80px;
+    }
+}
+
+
+
