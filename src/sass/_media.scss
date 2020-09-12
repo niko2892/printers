@@ -1,0 +1,297 @@
+@media(max-width: 1650px) { //до этой ширины
+    .main {
+        padding-left: 415px;
+    }
+
+    .trade{
+        &__models {
+            &_text {
+                font-size: 17px;
+                margin-left: 0;
+            }
+        }
+
+        &__original {
+            &_text {
+                font-size: 17px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .menu {
+        &__item {
+            margin-right: 10px;
+        }
+    }
+}
+
+@media(max-width: 1530px) { //до этой ширины
+    .logotype {
+        width: 550px;
+        img {
+            width: 80%;
+        }
+    }
+
+    .main {
+        padding-left: 350px;
+        &__wrapper {
+            margin-left: 100px;
+        }
+    }
+}
+
+@media(max-width: 1460px) { //до этой ширины
+    .logotype {
+        margin-left: 5px;
+    }
+
+    .main {
+        padding-left: 0;
+        &__wrapper {
+            margin-left: 400px;
+            margin-right: 0;
+        }
+    }
+
+    
+}
+
+@media(max-width: 1460px) { //до этой ширины
+   .header {
+       &__wrapper {
+           margin-left: 470px;
+       }
+   }
+}
+
+@media(max-width: 1230px) { //до этой ширины
+    .container {
+        max-width: 960px;
+    }
+
+    .logotype {
+        margin-left: 0;
+        width: 450px;
+        height: 485px;
+    }
+
+    .section {
+        &__menu {
+            margin-left: 20px;
+        }
+
+        &__logo {
+            margin-right: 10px;
+        }
+        &__choice {
+            font-size: 34px;
+        }
+    }
+
+    .refill {
+        &__text, &__subtext {
+            margin-left: 220px;
+            font-size: 16px;
+        }
+
+        &__adv {
+            margin-left: 130px;
+            font-size: 20px;
+        }
+
+        &__contacts {
+            font-size: 20px;
+        }
+
+        &__phone {
+            font-size: 26px;
+        }
+    }
+
+    .update {
+        &__text {
+            margin-left: 170px;
+            font-size: 17px;
+        }
+
+        &__decision {
+            margin-left: 70px;
+        }
+
+        &__onpoint {
+            margin-left: 100px;
+            &_bg {
+                left: 415px;
+            }
+        }
+
+        &__repair {
+            margin-left: 100px;
+        }
+    }
+
+    .repair {
+
+        &__computers {
+            &_text {
+                font-size: 16px;
+            }
+        }
+
+        &__printers {
+            margin-left: 420px;
+            &_wrapper {
+                margin-left: 25px;
+            }
+            &_text {
+                font-size: 16px;
+            }
+            &_img {
+                left: 580px;
+            }
+        }
+
+        &__screens {
+            &_text {
+                font-size: 16px;
+            }
+        }
+
+        &__notebooks {
+            margin-left: 410px;
+            &_img {
+                left: 520px;
+            }
+            &_text {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .trade {
+        &__cartridge {
+            &_text {
+                margin-left: 25px;
+            }
+            &_img {
+                left: 560px;
+            }
+        }
+
+        &__reliability {
+            &_text {
+                margin-left: 25px;
+            }
+            &_img {
+                left: 710px;
+            }
+        }
+
+        &__contacts {
+            margin-left: 170px;
+        }
+
+        &__phone {
+            margin-left: 10px;
+        }
+
+        &__icon {
+            left: 420px;
+        }
+    }
+        
+    .header {
+        &__wrapper {
+            margin-left: 340px;
+        }
+    }
+
+    .main {
+        &__wrapper {
+            margin-left: 300px;
+        }
+        &__menu {
+            transform: translateX(-80px);
+        }
+        &__title {
+            h1 {
+                margin-left: 65px;
+            }
+            h2 {
+                margin-right: 85px;
+            }
+            h3 {
+                margin-left: 60px;
+            }
+        }
+    }
+
+    .intro {
+        &__wrapper {
+            margin-left: 50px;
+        }
+
+        &__diagnostic, &__profi, &__lowprice, &__garantee, &__staff {
+            font-size: 22px;
+        }
+    }
+
+    .abil {
+        &__title {
+            margin-left: 0;
+            font-size: 22px;
+        }
+
+        &__suubtitle {
+            margin-left: 285px;
+            span {
+                font-size: 32px;
+            }
+        }
+
+        &__tel {
+            a {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .footer {
+        &__wrapper {
+            padding: 60px 20px 19px 20px;
+        }
+        &__column{
+            &-2 {
+                font-size: 12px;
+            }
+            &-3 {
+                font-size: 15px;
+            }
+        }
+
+        &__links {
+            font-size: 15px;
+        }
+    }
+}
+
+@media(max-width: 992px) { //до этой ширины
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media(max-width: 768px) { //до этой ширины
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media(max-width: 576px) { //до этой ширины
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}

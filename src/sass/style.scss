@@ -4,6 +4,7 @@
 }
 body {
     position: relative;
+    overflow-x: hidden;
 }
 
 @import './base/animations';
@@ -22,3 +23,4 @@ body {
 @import './blocks/update';
 @import './blocks/repair';
 @import './blocks/trade';
+@import './media'

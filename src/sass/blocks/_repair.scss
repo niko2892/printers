@@ -1,4 +1,5 @@
 .repair {
+    // display: none;
 
     &__computers {
         display: block;
@@ -66,7 +67,7 @@
 
         &_img {
             position: absolute;
-            right:   0;
+            left:   635px;
             width: 378px;
             height: 498px;
             background: url('../img/repair_printers_bg.png') center center/cover no-repeat;
@@ -148,7 +149,7 @@
 
         &_img {
             position: absolute;
-            right: 0;
+            left: 680px;
             width: 409px;
             height: 352px;
             background: url('../img/repair_notebooks_bg.png') center center/cover no-repeat;

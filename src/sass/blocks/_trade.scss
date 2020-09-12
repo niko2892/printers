@@ -1,4 +1,5 @@
 .trade {
+    // display: none;
 
     &__cartridge {
         
@@ -11,7 +12,8 @@
 
         &_img {
             position: absolute;
-            right: 0;
+            left: 675px;
+            top: -80px;
             width: 378px;
             height: 447px;
             background: url('../img/trade_cartridge_bg.png') center center/cover no-repeat;
@@ -67,7 +69,7 @@
 
         &_img {
             position: absolute;
-            right: 0;
+            left: 805px;
             top: -75px;
             z-index: -1;
             width: 255px;
@@ -132,7 +134,7 @@
     }
 
     &__icon {
-        right: 85px;
+        left: 500px;
     }
 
     &__phone {
