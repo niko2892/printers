@@ -44,29 +44,328 @@
 
 @media(max-width: 1460px) { //до этой ширины
     .logotype {
-        margin-left: 5px;
+        width: 400px;
+        img {
+            width: 100%;
+            height: 90%;
+        }
+    }
+
+    .header {
+        &__wrapper {
+            margin-left: 300px;
+        }
     }
 
     .main {
         padding-left: 0;
         &__wrapper {
-            margin-left: 400px;
+            padding-top: 80px;
+            margin-left: 270px;
             margin-right: 0;
+            width: 640px;
+        }
+
+        &__title {
+            h1 {
+                font-size: 35px;
+                height: 53px;
+                width: 535px;
+            }
+
+            h2 {
+                font-size: 21px;
+                margin-left: 20px;
+                margin-right: 15px;
+                
+            }
+
+            h3 {
+                font-size: 14px;
+                span {
+                    font-size: 14px;
+                }
+            }
         }
     }
 
-    
+    .menu {
+
+        &__wrapper {
+            margin-top: 60px;
+        }
+
+        &__item {
+            width: 140px;
+        }
+
+        &__name {
+            font-size: 14px;
+            width: 140px;
+        }
+
+        &__text {
+            font-size: 11px;
+        }
+
+        &__repair {
+            transform: translateY(7px);
+        }
+    }
+
+    .intro {
+        &__wrapper {
+            margin-left: 65px;
+        }
+
+        &__diagnostic {
+            width: 390px;
+            height: 88px;
+            font-size: 22px;
+        }
+
+        &__ptofi {
+            width: 472px;
+            height: 142px;
+            font-size: 22px;
+            padding-top: 82px;
+        }
+
+        &__lowprice {
+            font-size: 22px;
+            width: 389px;
+            height: 90px;
+        }
+
+        &__garantee {
+            width: 325px;
+            font-size: 22px;
+            height: 80px;
+        }
+
+        &__staff {
+            font-size: 22px;
+            width: 650px;
+            height: 97px;
+        }
+    }
+
+    .abil {
+        &__wrapper {
+            margin-top: 100px;
+        }
+
+        &__title {
+            font-size: 21px;
+        }
+
+        &__suubtitle {
+            font-size: 16px;
+            span {
+                font-size: 24px;
+            }
+        }
+
+        &__tel {
+            margin-top: 40px;
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .refill {
+        &__text, &__subtext {
+            font-size: 16px;
+            span {
+                font-size: 16px;
+            }
+        }
+
+        &__adv, &__contacts {
+            font-size: 20px;
+        }
+
+        &__phone {
+            font-size: 32px;
+        }
+
+    }
+
+    .section {
+        &__row {
+            width: 950px;
+        }
+
+        &__logo {
+            margin-right: 0;
+        }
+
+        &__choice {
+            font-size: 30px;
+            width: 180px;
+            height: 52px;
+        }
+
+        &__menu {
+            width: 490px;
+            margin-left: 20px;
+        }
+    }
+
+    .update {
+        &__text {
+            margin-left: 170px;
+            font-size: 16px;
+        }
+
+        &__decision {
+            font-size: 22px;
+            height: 56px;
+            width: 867px;
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+
+        &__step_one, &__step_two, &__step_three {
+            font-size: 16px;
+        }
+
+        &__step_three {
+            width: 700px;
+        }
+
+        &__explanation, &__models, &__about {
+            font-size: 16px;
+        }
+
+        &__about {
+            width: 850px;
+        }
+
+        &__onpoint, &__repair {
+            font-size: 21px;
+        }
+
+        &__onpoint {
+            &_bg {
+                left: 545px;
+            }
+        }
+    }
+
+    .repair {
+        &__computers, &__printers, &__screens, &__notebooks {
+            font-size: 22px;
+            width: 260px;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        &__computers {
+            &_text {
+                font-size: 15px;
+                width: 600px;
+                margin-left: -70px;
+            }
+        }
+
+        &__printers {
+            margin-left: 370px;
+            &_wrapper {
+                margin-left: 30px;
+            }
+
+            &_text {
+                font-size: 15px;
+            }
+
+            &_img {
+                left: 540px;
+            }
+        }
+
+        &__screens {
+            &_wrapper {
+                width: 990px;
+            }
+
+            &_text {
+                font-size: 15px;
+            }
+        }
+
+        &__notebooks {
+            margin-left: 380px;
+            &_content {
+                margin-left: 20px;  
+            }
+
+            &_img {
+                left: 520px;
+                top: 0;
+            }
+
+            &_text {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .trade {
+        &__text {
+            font-size: 15px;
+        }
+
+        &__contacts {
+            font-size: 16px;
+        }
+
+        &__phone {
+            font-size: 30px;
+            margin-left: 15px;
+        }
+
+        &__icon {
+            left: 375px;
+        }
+
+        &__cartridge {
+
+            &_img {
+                left: 560px;
+            }
+            &_text {
+                font-size: 15px;
+                margin-left: 30px;
+            }
+        }
+
+        &__models {
+            &_text {
+                font-size: 15px;
+            }
+        }
+
+        &__reliability {
+            &_text {
+                font-size: 15px;
+                margin-left: 30px;
+            }
+             &_img {
+                left: 620px;
+            }
+        }
+
+        &__original {
+            &_text {
+                font-size: 15px;
+            }
+        }
+    }
 }
 
-@media(max-width: 1460px) { //до этой ширины
-   .header {
-       &__wrapper {
-           margin-left: 470px;
-       }
-   }
-}
-
-@media(max-width: 1230px) { //до этой ширины
+@media(max-width: 1200px) { //до этой ширины
     .container {
         max-width: 960px;
     }
