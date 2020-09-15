@@ -372,7 +372,7 @@
 
     .logotype {
         margin-left: 0;
-        width: 450px;
+        width: 400px;
         height: 485px;
     }
 
@@ -385,6 +385,7 @@
             margin-right: 10px;
         }
         &__choice {
+            transform: translateY(-7px);
             font-size: 34px;
         }
     }
@@ -422,7 +423,7 @@
         &__onpoint {
             margin-left: 100px;
             &_bg {
-                left: 415px;
+                left: 530px;
             }
         }
 
@@ -440,7 +441,7 @@
         }
 
         &__printers {
-            margin-left: 420px;
+            margin-left: 380px;
             &_wrapper {
                 margin-left: 25px;
             }
@@ -448,7 +449,7 @@
                 font-size: 16px;
             }
             &_img {
-                left: 580px;
+                left: 550px;
             }
         }
 
@@ -484,7 +485,7 @@
                 margin-left: 25px;
             }
             &_img {
-                left: 710px;
+                left: 630px;
             }
         }
 
@@ -503,7 +504,7 @@
         
     .header {
         &__wrapper {
-            margin-left: 340px;
+            margin-left: 325px;
         }
     }
 
@@ -516,7 +517,8 @@
         }
         &__title {
             h1 {
-                margin-left: 65px;
+                margin-left: 110px;
+                width: 500px;
             }
             h2 {
                 margin-right: 85px;
@@ -559,7 +561,8 @@
 
     .footer {
         &__wrapper {
-            padding: 60px 20px 19px 20px;
+            padding: 60px 20px 19px 106px;
+            width: 960px;
         }
         &__column{
             &-2 {
@@ -579,6 +582,339 @@
 @media(max-width: 992px) { //до этой ширины
     .container {
         max-width: 720px;
+        // overflow-x: unset;
+    }
+    .header {
+        &__wrapper {
+            margin: 0 auto;
+        }
+    }
+
+    .logotype {
+        width: 250px;
+        height: 300px;
+        top: 92px;
+    }
+
+    .main {
+        &__wrapper {
+            margin-left: 110px;
+        }
+
+        &__title {
+            h1 {
+                font-size: 30px;
+                width: 440px;
+                line-height: 50px;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin-right: 90px;
+            }
+        }
+    }
+
+    .intro {
+        &__wrapper {
+            margin: 0 auto;
+            margin-top: 150px;
+        }
+
+        &__title {
+            font-size: 23px;
+            margin: 0 auto;
+        }
+
+        &__diagnostic, &__ptofi, &__lowprice, &__garantee, &__staff {
+            font-size: 20px;
+        }
+
+        &__diagnostic {
+            margin-left: 10px;
+        }
+
+        &__ptofi {
+            margin-left: 240px;
+            margin-top: 20px;
+            transform: translateY(-45px);
+        }
+
+        &__lowprice {
+            transform: translateY(-45px);
+        }
+
+        &__garantee {
+            transform: translateY(-30px);
+            margin-left: 385px;
+        }
+
+        &__staff {
+            margin-left: 30px;
+        }
+    }
+
+    .abil {
+        &__wrapper {
+            display: block;
+        }
+
+        &__title {
+            margin: 0 auto;
+        }
+
+        &__suubtitle {
+            margin-left: 40px;
+        }
+
+        &__tel {
+            margin-left: 430px;
+        }
+    }
+
+    .section {
+        &__refill {
+            min-height: 980px;
+        }
+
+        &__update {
+            min-height: 1500px;
+        }
+
+        &__repair {
+            min-height: 2200px;
+        }
+
+        &__trade {
+            min-height: 1900px;
+        }
+
+        &__choice {
+            font-size: 26px;
+            height: 44px;
+            width: 160px;
+            transform: translateY(-9px);
+           
+        }
+        &__row {
+            width: 720px;
+        }
+
+        &__logo {
+            display: inline-block;
+            margin-right: 0;
+            width: 200px;
+            img {
+                width: 110%;
+                transform: translate(-15px, 65px);
+            }
+        }
+    }
+
+    .refill {
+        &__text, &__adv, &__subtext, &__contacts {
+            width: 100%;
+           margin-left: 20px;
+           margin-top: 40px;
+        }
+
+        &__icon {
+            left: 200px;
+            top: 100px;
+        }
+    }
+
+    .update {
+        &__text {
+            margin-left: 20px;
+            margin-top: 60px;
+            width: 700px;
+        }
+
+        &__decision {
+            margin-left: 0;
+            background-size: 85%;
+            transform: translateX(-70px);
+        }
+
+        &__step {
+            &_one {
+                margin-left: 20px;
+            }
+
+            &_two {
+                margin-left: 90px;
+            }
+
+            &_three {
+                margin-left: 160px;
+                width: 515px;
+            }
+        }
+
+        &__explanation, &__models, &__onpoint, &__about, &__repair {
+            margin-left: 20px;
+            width: 100%;
+        }
+
+        &__onpoint {
+            &_bg {
+                left: 520px;
+                background-size: 70%;
+            }
+        }
+
+        &__repair {
+            &_bg {
+                background-size: 70%;
+            }
+        }
+    }
+
+    .repair {
+        &__computers {
+            &_wrapper {
+                margin-top: 80px;
+            }
+            
+            &_content {
+                width: 470px;
+            }
+
+            &_text {
+                width: 4550px;
+                font-size: 14px;
+            }
+
+            &_img {
+                background-size: 150%;
+            }
+        }
+
+        &__printers {
+            margin-left: 155px;
+            &_content {
+                width: 400px;
+            }
+
+            &_text{
+                font-size: 14px;
+                width: 420px;
+            }
+
+            &_img {
+                left: 325px;
+                background-size: 80%;
+            }
+        }
+
+        &__screens {
+            &_text {
+                font-size: 14px;
+                width: 500px;
+            }
+
+            &_wrapper {
+                width: 700px;
+            }
+
+            &_content {
+                width: 475px;
+            }
+            &_img {
+                background-size: 150%;
+                
+            }
+        }
+
+        &__notebooks {
+            margin-left: 300px;
+
+            &_content {
+                width: 500px;
+            }
+
+            &_text {
+                font-size: 14px;
+            }
+
+            &_img {
+                left: 380px;
+                top: 20px;
+                background-size: 70%
+            }
+        }
+    }
+
+    .trade {
+        &__cartridge {
+            &_text {
+                width: 530px;
+                font-size: 14px;
+            }
+            &_img {
+                top: -125px;
+                left: 380px;
+                background-size: 80%
+            }
+        }
+
+        &__models {
+            &_text {
+                font-size: 14px;
+                width: 915px;
+            }
+
+            &_img {
+                transform: translateY(-50px);
+                background-size: 110%
+            }
+
+            &_wrapper {
+                margin-bottom: 10px;
+            }
+        }
+
+        &__reliability {
+            &_text {
+                font-size: 14px;
+            }
+
+            &_img {
+                background-size: 80%;
+                transform: translate(-140px, -25px);
+            }
+        }
+
+        &__original {
+            &_text {
+                font-size: 14px;
+                width: 1050px;
+            }
+            &_img {
+                background-size: 125%;
+            }
+        }
+
+        &__text {
+            font-size: 14px;
+            margin-left: 40px;
+        }
+
+        &__contacts {
+            margin-left: 40px;
+        }
+    }
+
+    .footer {
+        &__wrapper {
+            padding-left: 20px;
+            width: 770px;
+        }
+
+        &__logo {
+            left: 45px;
+        }
     }
 }
 
@@ -586,11 +922,417 @@
     .container {
         max-width: 540px;
     }
+
+    .header {
+        &__adress, .timer__dinnertime, .timer__worktime, .timer__dinner {
+            font-size: 12px;
+        }
+        
+        .timer {
+            &__weekend {
+                transform: translateX(-20px);
+            }
+        }
+
+        &__adress {
+            margin-right: 0;
+        }
+
+        &__wrapper {
+            transform: translateX(-40px);
+        }
+        
+        &__tel {
+            transform: translateX(-55px);
+            background-size: 90%;
+            padding: 10px 45px 7px 65px;
+            &_wraper {
+                width: 120px;    
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .logotype {
+        width: 200px;
+        height: 270px;
+    }
+
+    .main {
+        &__wrapper {
+            margin-left: 65px;
+        }
+
+        &__title {
+            h1 {
+                font-size: 25px;
+                width: 300px;
+                height: 45px;
+                line-height: 45px;
+                span {
+                    margin-top: 5px;
+                    display: block;
+                    width: 120px;
+                    height: 45px;
+                    margin-left: 250px;
+                    background-color: #000000;
+                }
+            }
+
+            h2 {
+                margin-top: 100px;
+                margin-right: 200px;
+            }
+
+            h3 {
+                margin-left: 0;
+                width: 520px;
+                transform: translateX(-50px);
+            }
+        }
+        &__menu {
+            margin: 0 auto;
+            flex-wrap: wrap;
+            width: 365px;
+        }
+    }
+
+    .menu {
+        &__wrapper {
+            margin-top: 10px;
+        }
+    }
+
+    .intro {
+        &__wrapper {
+            margin-top: 100px;
+        }
+
+        &__title {
+            transform: translateX(-160px);
+        }
+
+        &__diagnostic {
+            background-size: 80%;
+            margin-top: 50px;
+            transform: translateX(-30px);
+        }
+
+        &__ptofi {
+            background-size: 80%;
+            transform: translate(-135px, -65px);
+            padding-top: 70px;
+            padding-left: 25px;
+        }
+
+        &__lowprice {
+            transform: translateY(-90px);
+            background-size: 80%;
+        }
+
+        &__garantee {
+            background-size: 80%;
+            transform: translate(-135px, -65px);
+        }
+
+        &__staff {
+            margin-left: 0;
+            background-size: 80%;
+            transform: translate(-55px, -65px);
+        }
+    }
+
+    .abil {
+        &__tel {
+            margin-left: 185px;
+        }
+
+        &__title {
+            margin-left: 60px;
+        }
+
+        &__suubtitle {
+            margin-left: 150px;
+        }
+    }
+
+    .section {
+        &__row {
+            flex-wrap: wrap;
+            margin-bottom: 250px;
+        }
+
+        &__choice {
+            transform: translate(-300px, 20px);
+        }
+    }
+
+    .refill {
+        &__text, &__subtext {
+            margin: 0 auto;        
+            margin-bottom: 70px;
+            width: 420px;
+        }
+
+        &__adv, &__contacts {
+            font-size: 18px;
+            width: 420px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+        }
+
+        &__subtext {
+            margin-bottom: 150px;
+        }
+
+        &__contacts {
+            a {
+                display: block;
+            }
+        }
+    }
+
+    .section {
+        &__refill {
+            min-height: 1400px;
+        }
+
+        &__update {
+            min-height: 1900px;
+        }
+
+        &__repair {
+            min-height: 2500px;
+        }
+
+        &__trade {
+            min-height: 2900px;
+        }
+    }
+
+    .update {
+        &__text {
+            font-size: 16px;
+            width: 420px;
+            margin: 0 auto;
+            margin-bottom: 80px;
+        }
+
+        &__decision {
+            font-size: 18px;
+            transform: translateX(-150px);
+            background-size: 65%;
+        }
+
+        &__step {
+            &_three {
+                width: 385px;
+                margin-bottom: 50px;
+            }
+        }
+
+        &__explanation, &__models, &__about, &__onpoint, &__repair {
+            margin: 0 auto;
+            width: 420px;
+            margin-bottom: 30px;
+        }
+
+        &__onpoint {
+            font-size: 18px;
+            &_bg {
+                left: 265px;
+            }
+        }
+
+        &__repair {
+            font-size: 18px;
+            &_bg {
+                left: 100px;
+            }
+        }
+    }
+
+    .repair {
+        &__computers {
+            transform: translateX(50px);
+
+            &_wrapper {
+                margin-top: 310px;
+                
+            }
+
+            &_content {
+                width: 350px;
+            }
+
+            &_img {
+                transform: translate(50px, -150px);
+                background-size: 160%;  
+                z-index: -1;
+            }
+
+            &_text {
+                margin-top: 60px;
+                transform: translateX(-90px);
+                width: 480px;
+            }
+        }
+
+        &__printers {
+            transform: translateX(-140px);
+            &_img {
+                left: 175px;
+                top: -130px;
+            }
+        }
+
+        &__screens {
+            transform: translateX(20px);
+
+            &_img {
+                transform: translateY(-160px);
+            }
+
+            &_text {
+                transform: translate(-190px, 50px);
+            }
+        }
+
+        &__notebooks {
+            transform: translateX(-300px);
+
+            &_text {
+                transform: translateY(50px);
+            }
+
+            &_img {
+                transform: translate(-180px, -150px);
+            }
+
+            &_wrapper {
+                margin-top: 130px;
+            }
+        }
+    }
+
+    .trade {
+        &__cartridge {
+            &_text {
+                width: 420px;
+                margin: 0 auto;
+                margin-top: 140px;
+            }
+
+            &_img {
+                top: -75px;
+                left: 200px;
+            }
+        }
+
+        &__models {
+            &_text {
+                width: 420px;
+                margin: 0 auto;
+                margin-top: 80px;
+            }
+        }
+
+        &__reliability {
+            &_text {
+                width: 530px;
+                margin: 0 auto;
+                margin-top: 180px;
+            }
+
+            &_img {
+                transform: translate(-400px, 40px);
+            }
+        }
+
+        &__original {
+            &_text {
+                width: 530px;
+                margin: 0 auto;
+                margin-top: 120px;
+            }
+        }
+
+        &__text {
+           margin-left: 0;
+
+        }
+    }
+
+    .footer {
+        &__logo {
+            width: 160px;
+            height: 160px;
+            top: -40px;
+        }
+
+        &__column {
+            &-1 {
+                transform: translate(450px, 20px);
+            }
+
+            &-2 {
+                transform: translate(-295px,10px);
+                span {
+                    display: inline-block;
+                    transform: translate(165px, -18px);
+                }
+            }
+
+            &-3 {
+                transform: translate(-470px, -40px);
+            }
+
+            &-4 {
+                transform: translate(-210px, -30px);
+            }
+        }
+    }
 }
 
 @media(max-width: 576px) { //до этой ширины
     .container {
         width: 100%;
         padding: 0 10px;
+    }
+
+    .header {
+        &__wrapper {
+            width: 410px;
+        }
+
+        &__tel {
+            display: none;
+        }
+
+        &__adress {
+            margin-left: 16px;
+        }
+    }
+
+    .timer {
+        margin-left: 7px;
+        &__weekend {
+            margin-left: 10px;
+        }
+    }
+
+    .section {
+        position: relative;
+        &__logo {
+            width: 422px;
+            height: 350px;
+            transform: translate(-100px, -200px);
+            img {
+                width: 100%;
+            }
+        }
+
     }
 }

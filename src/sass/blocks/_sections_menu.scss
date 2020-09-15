@@ -1,5 +1,9 @@
 .section {
 
+    &__update {
+        min-height: 2700px;
+    }
+
     &__wrapper {
         margin-top: 23px;
         padding-top: 200px;
@@ -21,6 +25,7 @@
             margin: 0 auto;
             line-height: 225px;
             transform: translateY(35px);
+            width: 100%;
         }
     }
 
