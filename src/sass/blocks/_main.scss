@@ -1,4 +1,11 @@
 .main {
+    &__tel {
+        display: none;
+        &_phone {
+            display: none;
+        }
+    }
+
     &_animated {
         animation-name: fadeSection;
         animation-duration: .8s;

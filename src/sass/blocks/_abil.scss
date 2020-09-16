@@ -1,5 +1,22 @@
 .abil {
 
+    &__phone {
+        display: none;
+    }
+
+    &__maintel {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+
+        color: #FFFFFF;
+    }
+
+    &__manufacturer {
+        display: inline;
+    }
+
     &__wrapper {
         margin-top: 139px;
         display: flex;

@@ -1,6 +1,10 @@
 .refill {
     // display: none;
     
+    &__mobile {
+        display: none;
+    }
+    
     &__text {
         margin-left: 282px;
         width: 800px;
