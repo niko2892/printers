@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
 			const sectionLogo = document.querySelectorAll('.section__logo'),
-				  refillBtn = document.querySelectorAll('.menu__rect_blue'),
-				  updateBtn = document.querySelectorAll('.menu__rect_yellow'),
-				  repairBtn = document.querySelectorAll('.menu__rect_pink'),
-				  tradeBtn = document.querySelectorAll('.menu__rect_black'),
+				  refillBtn = document.querySelectorAll('.ref'),
+				  updateBtn = document.querySelectorAll('.upt'),
+				  repairBtn = document.querySelectorAll('.rep'),
+				  tradeBtn = document.querySelectorAll('.trd'),
 				  mainSection = document.querySelector('.main'),
 				  introSection = document.querySelector('.intro'),
 				  abilSection = document.querySelector('.abil'),
