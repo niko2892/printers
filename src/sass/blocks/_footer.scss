@@ -1,9 +1,5 @@
 .footer {
-    &_animated {
-        animation-name: fadeSection;
-        animation-duration: .8s;
-        animation-fill-mode: none;
-    }
+    
     position: relative;
     height: 235px;
     background: url('../img/footer_bg.png') center center/cover no-repeat;
@@ -71,5 +67,6 @@
             color: #FFFFFF;
             text-decoration: none;
         }
+        background-color: transparent;
     }
 }
