@@ -20,11 +20,12 @@
     }
 
     &__column-1 {
-        width: 508px;
-        font-style: normal;
+        width: 91px;
+        min-height: 30px;
         font-weight: 300;
         font-size: 12px;
         color: #FFFFFF;
+        transform: translateX(-70px);
     }
 
     &__column-2 {

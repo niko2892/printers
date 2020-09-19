@@ -24,6 +24,14 @@
             margin-right: 10px;
         }
     }
+
+    .footer {
+        &__column {
+            &-2 {
+                transform: translateX(70px);
+            }
+        }
+    }
 }
 
 @media(max-width: 1530px) { //до этой ширины
@@ -38,6 +46,14 @@
         padding-left: 350px;
         &__wrapper {
             margin-left: 100px;
+        }
+    }
+
+    .footer {
+        &__column {
+            &-2 {
+                transform: translateX(100px);
+            }
         }
     }
 }
@@ -209,6 +225,7 @@
             font-size: 30px;
             width: 180px;
             height: 52px;
+            transform: none;
         }
 
         &__menu {
@@ -365,6 +382,12 @@
             &_text {
                 font-size: 15px;
             }
+        }
+    }
+
+    .footer {
+        &__wrapper {
+            padding-right: 0;
         }
     }
 }
@@ -559,6 +582,10 @@
     }
 
     .footer {
+        &__logo {
+            left: 60px;
+        }
+
         &__wrapper {
             padding: 60px 20px 19px 106px;
             width: 960px;
@@ -566,9 +593,11 @@
         &__column{
             &-2 {
                 font-size: 12px;
+                transform: translateX(150px);
             }
             &-3 {
                 font-size: 15px;
+                transform: translateX(100px);
             }
         }
 
@@ -912,7 +941,17 @@
         }
 
         &__logo {
-            left: 45px;
+            left: 40px;
+        }
+
+        &__column {
+            &-1 {
+                transform: translateX(10px);
+            }
+
+            &-2 {
+                transform: translate(195px, -3px);
+            }
         }
     }
 }
@@ -1280,12 +1319,12 @@
                 transform: translate(-295px,10px);
                 span {
                     display: inline-block;
-                    transform: translate(165px, -18px);
+                    transform: translate(210px, -18px);
                 }
             }
 
             &-3 {
-                transform: translate(-470px, -40px);
+                transform: translate(-360px, -40px);
             }
 
             &-4 {
@@ -1617,7 +1656,7 @@
             font-size: 18px;
             line-height: 22px;
             color: #FFFFFF;
-            width: 134px;
+            width: 145px;
             height: 22px;
             margin-top: 40px;
             margin-left: -80px;
@@ -1630,7 +1669,7 @@
             background: url('../img/el_phone-alt.png') center center/cover no-repeat;
             position: absolute;
             top: 30px;
-            left: 57px;
+            left: 70px;
         }
     }
 
@@ -2106,6 +2145,10 @@
                 height: 14px;
                 top: 216px;
                 left: 8px;
+                span {
+                    transform: translate(161px,-17px);
+                }
+                
             }
             
             &-3 {
