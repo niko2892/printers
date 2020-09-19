@@ -4,6 +4,18 @@
         display: none;
     }
 
+    &_animated-fade {
+        animation-name: fadeSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+
+    &_animated-show {
+        animation-name: showSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+
     &__cartridge {
         
         &_wrapper {

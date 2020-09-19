@@ -1,4 +1,15 @@
 .intro {
+    &_animated-fade {
+        animation-name: fadeSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+
+    &_animated-show {
+        animation-name: showSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
 
     &__company {
         display: inline-block;
@@ -23,11 +34,6 @@
         }
     }
 
-    &_animated {
-        animation-name: fadeSection;
-        animation-duration: .8s;
-        animation-fill-mode: forwards;
-    }
     &__wrapper {
         margin-top: 126px;
         margin-left: 160px;

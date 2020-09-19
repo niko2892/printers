@@ -6,11 +6,18 @@
         }
     }
 
-    &_animated {
+    &_animated-show {
+        animation-name: showSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+
+    &_animated-fade {
         animation-name: fadeSection;
         animation-duration: .8s;
         animation-fill-mode: forwards;
     }
+
     padding-left: 508px;
     &__wrapper {
         padding-top: 152px;
