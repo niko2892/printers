@@ -1,5 +1,8 @@
 .trade {
-    // display: none;
+    display: none;
+    &__tel {
+        display: none;
+    }
 
     &__cartridge {
         

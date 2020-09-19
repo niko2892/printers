@@ -1,6 +1,10 @@
 .update {
 
-    // display: none;
+    display: none;
+
+    &__contacts {
+        display: none;
+    }
 
     &__refill {
         transform: translateY(7px);

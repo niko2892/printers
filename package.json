@@ -9,7 +9,7 @@
   "author": "Nikolay",
   "license": "ISC",
   "dependencies": {
-    "animate.css": "^4.1.0",
+    "animate.css": "^4.1.1",
     "g": "^2.0.1"
   },
   "devDependencies": {

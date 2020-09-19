@@ -1,5 +1,5 @@
 .refill {
-    // display: none;
+    display: none;
     
     &__mobile {
         display: none;
@@ -23,6 +23,10 @@
             letter-spacing: 0.01em;
             color: #000000;
         }
+    }
+
+    &__pic {
+        display: none;
     }
 
     &__city {

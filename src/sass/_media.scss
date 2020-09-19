@@ -1443,7 +1443,9 @@
     }
 
     .menu {
-        
+        &__bugfix {
+            transform: translateY(13px);
+        }
 
         &__name {
             font-weight: bold;
@@ -1634,7 +1636,19 @@
 
     .section {
         &__refill {
-            min-height: 2800px;
+            min-height: 1800px;
+        }
+
+        &__update {
+            min-height: 2400px;
+        }
+
+        &__repair {
+            min-height: 3800px;
+        }
+
+        &__trade {
+            min-height: 3900px;
         }
 
         &__wrapper {
@@ -1710,7 +1724,7 @@
         &__phone {
             width: 575px;
             height: 284px;
-            padding: 87px 84px 155px 91px;
+            padding: 115px 84px 155px 91px;
             font-weight: bold;
             font-size: 18px;
             color: #FFFFFF;
@@ -1718,6 +1732,16 @@
 
         &__icon {
             display: none;
+        }
+
+        &__pic {
+            position: absolute;
+            top: 240px;
+            left: 275px;
+            display: block;
+            width: 61px;
+            height: 61px;
+            background: url('../img/el_phone-alt.png') center center/cover no-repeat;
         }
 
         &__mobile {
@@ -1731,4 +1755,376 @@
         }
     }
 
+    .update {
+        &__text {
+            width: 328px;
+            min-height: 208px;
+            font-weight: 300;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            color: #000000;
+            margin-left: 16px;
+            margin-bottom: 0;
+        }
+
+        &__decision {
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 30px;
+            text-align: center;
+            width: 335px;
+            height: 114px;
+            transform: none;
+            background-size: 400%;
+        }
+
+        &__step {
+            &_one, &_two, &_three {
+                width: 328px;
+                min-height: 53px;
+                margin: 0;
+                margin-left: 16px;
+                margin-bottom: 30px;
+                font-size: 18px;
+                color: #000000;
+            }
+        }
+
+        &__explanation, &__models, &__about {
+            width: 328px;
+            min-height: 100px;
+            margin: 0;
+            margin-left: 16px;
+            margin-bottom: 50px;
+            font-weight: 300;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            color: #000000;
+        }
+
+        &__onpoint, &__repair {
+            margin: 0;
+            font-weight: 300;
+            font-size: 24px;
+            letter-spacing: 0.01em;
+            color: #000000;
+        }
+
+        &__onpoint {
+            width: 328px;
+            margin-left: 25px;
+            margin-bottom: 50px;
+            &_bg {
+                left: 55px;
+                top: 5px;
+            }
+        }
+
+        &__repair {
+            width: 328px;
+            margin-left: 16px;
+            &_bg {
+                background-size: 100%;
+                width: 272px;
+                height: 209px;
+                top: 30px;
+                left: 40px;
+            }
+        }
+
+        &__contacts {
+            display: block;
+            position: relative;
+            width: 328px;
+            height: 55px;
+            background: url('../img/maintel_bg.png') center center/cover no-repeat;
+            padding: 18px 135px 15px 50px;
+            margin-top: 50px;
+
+            img {
+                position: absolute;
+                left: 218px;
+                top: 0;
+            }
+            
+            a {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                color: #FFF;
+            }
+        }
+    }
+
+    .repair {
+        &__computers, &__printers, &__screens, &__notebooks {
+            width: 193px;
+            height: 36px;
+            transform: none;
+            margin-left: 151px;
+            margin-top: 165px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 36px;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+
+            &_wrapper {
+                position: relative;
+            }
+
+            &_content {
+                margin: 0;
+                padding: 0;
+            }
+
+            &_img {
+                width: 225px;
+                height: 206px;
+                transform: none;
+                background-size: 100%;
+                position: absolute;
+                top: 0;
+                left: -25px;
+            }
+
+            &_text {
+                margin: 0;
+                margin-top: 44px;
+                padding: 0;
+                transform: none;
+                width: 328px;
+                min-height: 494;
+                margin-left: 16px;
+                font-weight: 300;
+                font-size: 18px;
+                letter-spacing: 0.01em;
+                text-indent: 10px;
+                color: #000000;
+            }
+        }
+
+        &__printers {
+            margin-left: 16px;
+            margin-top: 126px;
+
+            &_wrapper {
+                margin: 0;
+            }
+
+            &_img {
+                left: 149px;
+                top: 51px;
+                width: 196px;
+                height: 257px;
+            }
+
+            &_text {
+                margin-top: 45px;
+            }
+        }
+
+        &__screens {
+            margin-top: 115px;
+            margin-left: 151px;
+
+            &_img {
+                width: 261px;
+                height: 203px;
+                z-index: -1;
+                left: -55px;
+                top: 10px;
+            }
+
+            &_text {
+                margin-top: 56px;
+            }
+        }
+
+        &__notebooks {
+            margin-top: 98px;
+            margin-left: 16px;
+
+            &_img {
+                width: 223px;
+                height: 192px;
+                left: 121px;
+                top: 30px;
+            }
+
+            &_text {
+                margin-top: 88px;
+            }
+        }
+    }
+
+    .trade {
+        &__rep {
+            transform: translateY(-10px);
+        }
+
+        &__cartridge, &__models, &__reliability, &__original {
+            &_wrapper {
+                position: relative;
+            }
+
+            &_text {
+                margin: 0;
+                padding: 0;
+                transform: none;
+                width: 328px;
+                min-height: 312px;
+                margin-left: 16px;
+                font-weight: 300;
+                font-size: 18px;
+                letter-spacing: 0.01em;
+                color: #000000;
+                margin-top: 197px;
+            }
+
+            &_img {
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                transform: none;
+                background-size: 100%;
+                width: 197px;
+                height: 203px;
+                left: 173px;
+                top: 68px;
+                z-index: -1;
+            }
+        }
+
+        &__models {
+            
+
+            &_img {
+                width: 201px;
+                height: 228px;
+                position: absolute;
+                top: 0;
+                left: 16px;
+                z-index: -1;
+            }
+
+            &_text {
+                margin-top: 196px;
+            }
+        }
+
+        &__reliability {
+            &_img {
+                width: 186px;
+                height: 200px;
+                left: 158px;
+                top: 0;
+            }
+
+            &_text {
+                margin-top: 165px;
+            }
+        }
+
+        &__original {
+            &_img {
+                width: 205px;
+                height: 181px;
+                left: 16px;
+                top: 0;
+            }
+
+            &_text {
+                margin-top: 127px;
+            }
+        }
+
+        &__text {
+            margin: 0;
+            padding: 0;
+            transform: none;
+            width: 328px;
+            min-height: 390px;
+            margin-left: 16px;
+            margin-top: 50px;
+            font-size: 18px;
+            letter-spacing: 0.01em;
+            color: #000000;
+        }
+
+        &__contacts {
+            display: none;
+        }
+
+        &__tel {
+            display: block;
+            margin-top: 84px;
+        }
+    }
+
+    .footer {
+        height: 286px;
+        margin-top: 66px;
+
+        &__logo {
+            width: 125px;
+            height: 149px;
+            left: 20px;
+            top: -45px;
+        }
+
+        &__wrapper {
+            margin: 0;
+            padding: 0;
+            width: 360px;
+            position: relative;
+        }
+
+        &__column {
+            &-1, &-2, &-3, &-4 {
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                transform: none;
+                color: #FFFFFF;
+                opacity: 0.5;
+            }
+
+            &-1 {
+                width: 344px;
+                height: 28px;
+                left: 260px;
+                top: 250px;
+                font-weight: 300;
+                font-size: 12px;
+                color: #FFFFFF;
+                opacity: 0.5;
+            }
+
+            &-2 {
+                width: 344px;
+                height: 14px;
+                top: 216px;
+                left: 8px;
+            }
+            
+            &-3 {
+                font-weight: normal;
+                font-size: 12px;
+                width: 95px;
+                height: 28px;
+                left: 16px;
+                top: 166px;
+            }
+
+            &-4 {
+                width: 86px;
+                height: 150px;
+                font-size: 18px;
+                color: #FFFFFF;
+                left: 258px;
+                top: 46px;
+            }
+        }
+    }
 }
