@@ -19,8 +19,8 @@
         width: 291px;
         height: 54px;
         text-align: center;
-        font-style: normal;
-        font-weight: bold;
+
+        font-weight: 300;
         font-size: 24px;
         line-height: 54px;
         letter-spacing: 0.01em;
@@ -43,13 +43,14 @@
         }
 
         &_text {
-            font-style: normal;
+
             font-weight: 300;
             font-size: 18px;
-            line-height: 145%;
+
             letter-spacing: 0.01em;
             text-indent: 10px;
             color: #000000;
+
             span {
                 font-weight: 600;
             }
@@ -62,8 +63,7 @@
         width: 255px;
         height: 54px;
         text-align: center;
-        font-style: normal;
-        font-weight: bold;
+
         font-size: 24px;
         line-height: 54px;
         letter-spacing: 0.01em;
@@ -79,7 +79,7 @@
 
         &_img {
             position: absolute;
-            left:   635px;
+            left: 635px;
             width: 378px;
             height: 498px;
             background: url('../img/repair_printers_bg.png') center center/cover no-repeat;
@@ -87,13 +87,14 @@
         }
 
         &_text {
-            font-style: normal;
+
             font-weight: 300;
             font-size: 18px;
-            line-height: 145%;
+
             letter-spacing: 0.01em;
             text-indent: 10px;
             color: #000000;
+
             span {
                 font-weight: 600;
             }
@@ -133,6 +134,7 @@
             letter-spacing: 0.01em;
             text-indent: 10px;
             color: #000000;
+
             span {
                 font-weight: 600;
             }
@@ -176,10 +178,10 @@
             letter-spacing: 0.01em;
             text-indent: 10px;
             color: #000000;
+
             span {
                 font-weight: 600;
             }
         }
     }
 }
-

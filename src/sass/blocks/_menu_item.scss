@@ -8,6 +8,10 @@
 }
 .menu {
 
+    &__repair {
+        transform: translateY(7px);
+    }
+
     &__wrapper {
         margin-top: 83px;
         width: 160px;
