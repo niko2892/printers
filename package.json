@@ -9,10 +9,10 @@
   "author": "Nikolay",
   "license": "ISC",
   "dependencies": {
-    "animate.css": "^4.1.1",
     "g": "^2.0.1"
   },
   "devDependencies": {
+    "animate.css": "^4.1.1",
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",

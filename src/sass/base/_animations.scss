@@ -4,7 +4,7 @@
     }
     to {
         opacity: 0;
-        transform: translateY(50%);
+        transform: translateX(50%);
     }
 }
 
@@ -14,10 +14,27 @@
     }
     50% {
         opacity: .8;
-        transform: translateY(50%);
+        transform: translateX(50%);
     }
     to {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
 }

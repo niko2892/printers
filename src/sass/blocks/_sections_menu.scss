@@ -30,6 +30,10 @@
         }
     }
 
+    &__logo:hover {
+        animation: bounce 1s;
+    }
+
     &__choice {
         width: 205px;
         height: 60px;

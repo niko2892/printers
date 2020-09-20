@@ -128,9 +128,19 @@
         width: 272px;
         height: 142px;
         bottom: 0;
-        left: 660px;
+        left: 690px;
         z-index: -1;
         text-align: center;
+    }
+
+    &__callbtn {
+        position: absolute;
+        width: 61px;
+        height: 61px;
+        cursor: pointer;
+        top: 22px;
+        left: 86px;
+        background-color: red;
     }
 
     &__round {
