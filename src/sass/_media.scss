@@ -1463,6 +1463,11 @@
             margin: 0;
             padding: 0;
         }
+
+        &__city {
+            left: 200px;
+        }
+
         &__title {
             h1 {
                 text-align: center;
@@ -1624,57 +1629,108 @@
             left: -40px;
         }
 
-        &__diagnostic, &__ptofi, &__lowprice, &__garantee, &__staff {
-            margin: 0;
-            padding: 0;
-            transform: none;
-            background-size: 100%;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 19px;
-            letter-spacing: 0.01em;
-            color: #FFFFFF;
-        }
-
-        &__diagnostic {
-            width: 274px;
-            height: 62px;   
-            background-size: 100%;
+        &__diagmob {
+            display: block;
+            margin-top: 28px;
             margin-left: 20px;
-            margin-top: 29px;
+            width: 274px;
+            height: 62px;
+            background: url('../img/intro_diagnostic.svg') center center/cover no-repeat;
+            background-size: contain;
         }
 
-        &__ptofi {
-            width: 300px;
-            height: 95px;
-            background-size: 100%;
+        &__profimob {
+            display: block;
+            margin-top: 30px;
             margin-left: 59px;
-            // margin-top: 30px;
-            line-height: 125px;
-            padding-left: 20px;
+            width: 280px;
+            height: 66px;
+            background: url('../img/intro_profi.svg') center center/cover no-repeat;
+            background-size: contain;
         }
 
-        &__lowprice {
-            width: 215px;
-            height: 53px;
+        &__pricemob {
+            display: block;
             margin-top: 20px;
             margin-left: 20px;
+            width: 215px;
+            height: 53px;
+            background: url('../img/intro_prices.svg') center center/cover no-repeat;
+            background-size: contain;
         }
 
-        &__garantee {
+        &__garantmob {
+            display: block;
+            margin-top: 36px;
+            margin-left: 184px;
             width: 173px;
             height: 45px;
-            margin-top: 36px;
-            margin-left: 174px;
+            background: url('../img/intro_garantee.svg') center center/cover no-repeat;
+            background-size: contain;
         }
 
-        &__staff {
-            width: 318px;
-            height: 86px;
+        &__staffmob {
+            display: block;
             margin-top: 26px;
             margin-left: 20px;
-            padding: 15px 30px 17px 45px;
+            width: 320px;
+            height: 89px;
+            background: url('../img/intro_staff.svg') center center/cover no-repeat;
+            background-size: contain;
         }
+
+        &__diagnostic, &__ptofi, &__lowprice, &__garantee, &__staff {
+            // margin: 0;
+            // padding: 0;
+            // transform: none;
+            // background-size: 100%;
+            // font-weight: bold;
+            // font-size: 16px;
+            // line-height: 19px;
+            // letter-spacing: 0.01em;
+            // color: #FFFFFF;
+            display: none;
+        }
+
+        // &__diagnostic {
+        //     width: 274px;
+        //     height: 62px;   
+        //     background-size: 100%;
+        //     margin-left: 20px;
+        //     margin-top: 29px;
+        // }
+
+        // &__ptofi {
+        //     width: 300px;
+        //     height: 95px;
+        //     background-size: 100%;
+        //     margin-left: 59px;
+        //     // margin-top: 30px;
+        //     line-height: 125px;
+        //     padding-left: 20px;
+        // }
+
+        // &__lowprice {
+        //     width: 215px;
+        //     height: 53px;
+        //     margin-top: 20px;
+        //     margin-left: 20px;
+        // }
+
+        // &__garantee {
+        //     width: 173px;
+        //     height: 45px;
+        //     margin-top: 36px;
+        //     margin-left: 174px;
+        // }
+
+        // &__staff {
+        //     width: 318px;
+        //     height: 86px;
+        //     margin-top: 26px;
+        //     margin-left: 20px;
+        //     padding: 15px 30px 17px 45px;
+        // }
     }
 
     .abil {
@@ -1692,6 +1748,7 @@
             font-size: 18px;
             color: #141414;
             margin-left: 40px;
+            margin-top: 110px;
         }
 
         &__suubtitle {
@@ -1709,21 +1766,22 @@
         }
 
         &__tel {
-            position: relative;
-            transform: none;
-            width: 320px;
-            height: 334px;
+            // position: relative;
+            // transform: none;
+            // width: 320px;
+            // height: 334px;
 
-            img {
-                width: 100%;
-                height: 100%;
-                top: -100px;
-                left: -130px;
-            }
+            // img {
+            //     width: 100%;
+            //     height: 100%;
+            //     top: -100px;
+            //     left: -130px;
+            // }
             
-            a {
-                display: none;
-            }
+            // a {
+            //     display: none;
+            // }
+            display: none;
         }
 
         &__maintel {
@@ -1743,12 +1801,14 @@
 
         &__phone {
             display: block;
-            width: 61px;
-            height: 61px;
-            background: url('../img/el_phone-alt.png') center center/cover no-repeat;
-            position: absolute;
-            top: 15px;
-            left: 165px;
+            width: 379px;
+            height: 334px;
+            background: url('../img/abil_telephone_bg.svg') center center/cover no-repeat;
+            background-size: contain;
+            margin-left: -60px;
+            margin-top: -50px;
+            padding-top: 130px;
+            padding-left: 160px;
         }
     }
 
@@ -1766,7 +1826,7 @@
         }
 
         &__trade {
-            min-height: 3900px;
+            min-height: 2800px;
         }
 
         &__wrapper {
@@ -1842,10 +1902,13 @@
         &__phone {
             width: 575px;
             height: 284px;
-            padding: 115px 84px 155px 91px;
             font-weight: bold;
             font-size: 18px;
             color: #FFFFFF;
+            transform: scale(0.8);
+            margin-top: 85px;
+            margin-left: -15px;
+           
         }
 
         &__icon {
@@ -1853,13 +1916,14 @@
         }
 
         &__pic {
-            position: absolute;
-            top: 240px;
-            left: 275px;
-            display: block;
-            width: 61px;
-            height: 61px;
-            background: url('../img/el_phone-alt.png') center center/cover no-repeat;
+            // position: absolute;
+            // top: 240px;
+            // left: 275px;
+            // display: block;
+            // width: 61px;
+            // height: 61px;
+            // background: url('../img/el_phone-alt.png') center center/cover no-repeat;
+            display: none;
         }
 
         &__mobile {
@@ -2015,15 +2079,19 @@
                 margin-top: 44px;
                 padding: 0;
                 transform: none;
-                width: 328px;
+                width: 350px;
                 min-height: 494;
-                margin-left: 16px;
+                margin-left: 13px;
                 font-weight: 300;
                 font-size: 18px;
                 letter-spacing: 0.01em;
                 text-indent: 10px;
                 color: #000000;
             }
+        }
+
+        &__computers {
+            margin-top: 100px;
         }
 
         &__printers {
@@ -2064,8 +2132,11 @@
         }
 
         &__notebooks {
-            margin-top: 98px;
             margin-left: 16px;
+
+            &_wrapper {
+                margin-top: -95px;
+            }
 
             &_img {
                 width: 223px;
@@ -2094,11 +2165,11 @@
                 margin: 0;
                 padding: 0;
                 transform: none;
-                width: 328px;
+                width: 350px;
                 min-height: 312px;
                 margin-left: 16px;
                 font-weight: 300;
-                font-size: 18px;
+                font-size: 15px;
                 letter-spacing: 0.01em;
                 color: #000000;
                 margin-top: 197px;
@@ -2118,8 +2189,20 @@
             }
         }
 
+        &__cartridge {
+            &_wrapper {
+                margin-top: -60px;
+            }
+
+            &_img {
+                height: 234px;
+            }
+        }
+
         &__models {
-            
+            &_wrapper {
+                margin-top: -155px;
+            }
 
             &_img {
                 width: 201px;
@@ -2156,6 +2239,10 @@
                 top: 0;
             }
 
+            &_wrapper {
+                margin-top: -80px;
+            }
+
             &_text {
                 margin-top: 127px;
             }
@@ -2179,8 +2266,17 @@
         }
 
         &__tel {
+            display: none;
+        }
+
+        &__mobtel {
+            margin-top: 32px;
             display: block;
-            margin-top: 84px;
+            width: 328px;
+            height: 65px;
+            background: url('../img/trade__telephone_bg.svg') center center/cover no-repeat;
+            background-size: contain;
+            text-align: center;
         }
     }
 
@@ -2189,10 +2285,21 @@
         margin-top: 0;
 
         &__logo {
-            width: 125px;
-            height: 149px;
-            left: 20px;
-            top: -45px;
+            // width: 125px;
+            // height: 149px;
+            // left: 20px;
+            // top: -45px;
+            display: none;
+        }
+
+        &__logomob {
+            position: absolute;
+            display: block;
+            width: 179px;
+            height: 208px;
+            background: url('../img/footer_logo_mob.svg') center center/cover no-repeat;
+            background-size: contain;
+            bottom: 124px;
         }
 
         &__wrapper {

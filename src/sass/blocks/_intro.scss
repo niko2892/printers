@@ -132,5 +132,9 @@
         letter-spacing: 0.01em;
         color: #FFFFFF;
     }
+
+    &__diagmob, &__profimob, &__pricemob, &__garantmob, &__staffmob {
+        display: none;
+    }
 }
 

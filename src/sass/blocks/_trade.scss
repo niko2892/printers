@@ -85,7 +85,7 @@
         &_img {
             position: absolute;
             left: 805px;
-            top: -75px;
+            top: -140px;
             z-index: -1;
             width: 255px;
             height: 275px;
@@ -94,6 +94,7 @@
 
         &_text {
             margin-left: 95px;
+            margin-top: -50px;
             font-style: normal;
             font-weight: 300;
             font-size: 18px;
@@ -131,6 +132,10 @@
         }
     }
 
+    &__mobtel {
+        display: none;
+    }
+
     &__text {
         margin-left: 190px;
         margin-bottom: 64px;
@@ -152,8 +157,14 @@
         left: 460px;
     }
 
-    &__phone {
-        // margin-left: 80px;
+}
+
+.trade__tel {
+    img:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: .3s all;
     }
 }
 
