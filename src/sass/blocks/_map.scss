@@ -1,0 +1,41 @@
+.map {
+    display: none;
+
+    &__wrapper {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    &_animated-fade {
+        animation-name: fadeSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+
+    &_animated-show {
+        animation-name: showSection;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
+    }
+
+    &__map {
+        margin-bottom: 50px;
+    }
+
+    &__title {
+        font-weight: 700;
+    }
+
+    // // &__tel {
+    // // }
+
+    // &__maintel {
+    //     a:hover {
+    //         color: #fff;
+    //     }
+    // }
+
+    // &__subtel {
+    // }
+}
+
