@@ -1507,9 +1507,18 @@
                 margin-left: 33px;
                 width: 295px;
                 height: 22px;
+                span {
+                    font-size: 16px;
+                }
             }
             
             h3 {
+                br {
+                    content: '';
+                }
+                br:after {
+                    content: "\00a0";
+                }
                 position: absolute;
                 margin: 0;
                 padding: 0;
@@ -1821,15 +1830,15 @@
 
     .section {
         &__refill {
-            min-height: 1480px;
+            min-height: 1675px;
         }
 
         &__update {
-            min-height: 2140px;
+            min-height: 2350px;
         }
 
         &__repair {
-            min-height: 3800px;
+            min-height: 3700px;
         }
 
         &__trade {
@@ -1877,36 +1886,50 @@
     }
 
     .refill {
+        br {
+            content: '';
+        }
+        br:after {
+            content: "\00a0";
+        }
+
         &__text, &__subtext {
             margin: 0;
             padding: 0;
             font-weight: 300;
-            font-size: 15px;
             letter-spacing: 0.01em;
             color: #000000;
-            margin-left: 10px;
-            width: 350px;
+            margin-left: 16px;
+            margin-top: 50px;
+            width: 328px;
             min-height: 126px;
+            font-size: 18px;
             span {
-                font-size: 15px;
+                font-size: 18px;
             }
+        }
+
+
+        &__subtext {
+            margin-left: 16px;
+            // margin-top: 50px;
         }
 
         &__adv, &__contacts {
             margin: 0;
             padding: 0;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 24px;
             color: #000000;
             width: 328px;
             min-height: 185px;
             margin-left: 16px;
-            margin-top: 5px;
+            margin-top: 50px;
         }
 
         &__contacts {
             position: relative;
-            margin-top: 150px;
+            margin-top: 260px;
         }
 
         &__phone {
@@ -1952,8 +1975,15 @@
     }
 
     .update {
+        br {
+            content: '';
+        }
+        br:after {
+            content: "\00a0";
+        }
+
         &__text {
-            width: 328px;
+            width: 340px;
             min-height: 208px;
             font-weight: 300;
             font-size: 18px;
@@ -1961,17 +1991,39 @@
             color: #000000;
             margin-left: 16px;
             margin-bottom: 0;
+            transform: translateY(50px);
         }
 
         &__decision {
-            margin-top: 0;
-            margin-right: 0;
-            margin-bottom: 30px;
-            text-align: center;
-            width: 335px;
+            // margin-top: 0;
+            // margin-right: 0;
+            // margin-bottom: 30px;
+            // text-align: center;
+            // width: 335px;
+            // height: 114px;
+            // transform: none;
+            // background-size: 100%;
+            // background-size: contain;
+            display: none;
+        }
+
+        &__decisionmob {
+            display: block;
+            width: 360px;
             height: 114px;
-            transform: none;
-            background-size: 400%;
+            background: url('../img/update_decision_mob_bg.svg') center center/cover no-repeat;
+            background-size: contain;
+            margin-top: 50px;
+            margin-bottom: 31px;
+            margin-left: 0;
+
+            text-align: center;
+            padding: 31px 28px 35px 26px;
+            font-weight: 700;
+            font-size: 18px;
+            // line-height: 29px;
+            color: #FFFFFF;
+
         }
 
         &__step {
@@ -1993,7 +2045,7 @@
             margin-left: 16px;
             margin-bottom: 30px;
             font-weight: 300;
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: 0.01em;
             color: #000000;
         }
@@ -2001,7 +2053,7 @@
         &__onpoint, &__repair {
             margin: 0;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 24px;
             letter-spacing: 0.01em;
             color: #000000;
         }
@@ -2011,8 +2063,8 @@
             margin-left: 25px;
             margin-bottom: 50px;
             &_bg {
-                left: 55px;
-                top: -30px;
+                left: 65px;
+                top: -25px;
             }
         }
 
@@ -2053,6 +2105,11 @@
     }
 
     .repair {
+
+        &__place {
+            width: 335px;
+        }
+
         &__computers, &__printers, &__screens, &__notebooks {
             width: 193px;
             height: 36px;
@@ -2089,7 +2146,7 @@
                 margin-top: 44px;
                 padding: 0;
                 transform: none;
-                width: 350px;
+                width: 328px;
                 min-height: 494;
                 margin-left: 13px;
                 font-weight: 300;
@@ -2097,11 +2154,20 @@
                 letter-spacing: 0.01em;
                 text-indent: 10px;
                 color: #000000;
+                font-weight: 300;
             }
         }
 
         &__computers {
             margin-top: 100px;
+            &_text {
+                br {
+                    content: '';
+                }
+                br:after {
+                    content: "\00a0";
+                }
+            }
         }
 
         &__printers {
@@ -2137,12 +2203,19 @@
             }
 
             &_text {
+                br {
+                    content: '';
+                }
+                br:after {
+                    content: "\00a0";
+                }
                 margin-top: 56px;
             }
         }
 
         &__notebooks {
             margin-left: 16px;
+            margin-top: 95px;
 
             &_wrapper {
                 margin-top: -95px;
@@ -2156,12 +2229,26 @@
             }
 
             &_text {
-                margin-top: 88px;
+                br {
+                    content: '';
+                }
+                br:after {
+                    content: "\00a0";
+                }
+                margin-top: 85px;
+                width: 340px;
             }
         }
     }
 
     .trade {
+        br {
+            content: '';
+        }
+        br:after {
+            content: "\00a0";
+        }
+
         &__rep {
             transform: translateY(-10px);
         }
@@ -2179,10 +2266,10 @@
                 min-height: 312px;
                 margin-left: 16px;
                 font-weight: 300;
-                font-size: 15px;
+                font-size: 18px;
                 letter-spacing: 0.01em;
                 color: #000000;
-                margin-top: 197px;
+                margin-top: 170px;
             }
 
             &_img {
@@ -2218,13 +2305,13 @@
                 width: 201px;
                 height: 228px;
                 position: absolute;
-                top: 0;
+                top: 50px;
                 left: 16px;
                 z-index: -1;
             }
 
             &_text {
-                margin-top: 196px;
+                margin-top: 215px;
             }
         }
 
@@ -2233,11 +2320,11 @@
                 width: 186px;
                 height: 200px;
                 left: 158px;
-                top: 0;
+                top: -35px;
             }
 
             &_text {
-                margin-top: 165px;
+                margin-top: 135px;
             }
         }
 
@@ -2281,6 +2368,7 @@
 
         &__mobtel {
             margin-top: 32px;
+            margin-bottom: 50px;
             display: block;
             width: 328px;
             height: 65px;
