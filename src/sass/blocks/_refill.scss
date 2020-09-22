@@ -13,6 +13,11 @@
         animation-fill-mode: forwards;
     }
 
+    
+    &__whitephone {
+        display: none;
+    }
+
     &__mobile {
         display: none;
     }
@@ -156,9 +161,6 @@
         transition: .3s all;
     }
 }
-
-
-
 
 .menu {
 

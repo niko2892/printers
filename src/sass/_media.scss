@@ -1301,6 +1301,7 @@
 
             &_img {
                 transform: translateY(-160px);
+                // background-size: contain;
             }
 
             &_text {
@@ -1909,7 +1910,6 @@
             }
         }
 
-
         &__subtext {
             margin-left: 16px;
             // margin-top: 50px;
@@ -1967,6 +1967,20 @@
             z-index: -1;
             top: 45px;
             left: -160px;
+        }
+
+        &__blackphone {
+            display: none;
+        }
+
+        &__whitephone {
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 335px;
+            height: 80px;
+            margin-left: 20px;
+            background-size: contain;
         }
 
         &__adress {
@@ -2198,7 +2212,7 @@
                 width: 261px;
                 height: 203px;
                 z-index: -1;
-                left: -55px;
+                left: -30px;
                 top: 10px;
             }
 
