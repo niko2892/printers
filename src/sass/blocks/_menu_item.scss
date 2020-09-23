@@ -60,6 +60,7 @@
         font-weight: bold;
         font-size: 18px;
         color: #141414;
+        transition: .3s all;
     }
 
     &__text {
@@ -76,4 +77,5 @@
         transform: scale(1.1);
         transition: .3s all;
     }
+    
 }
