@@ -72,13 +72,11 @@
     }
 
     &__name:hover {
-        // padding-left: 26.3px;
-        // padding-bottom: 1px;
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+        -webkit-transform: scale(1.059);
+        -ms-transform: scale(1.059);
+        transform: scale(1.059);
         transition: .3s all;
-        line-height: 50%;
     }
+
     
 }
