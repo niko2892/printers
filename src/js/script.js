@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 			sectionLogo.forEach(btn => {
 				btn.addEventListener('click', () => {
+					
+
 					refillSection.classList.remove('refill_animated-show');
 					refillSection.classList.add('refill_animated-fade');
 					setTimeout(hideSection, 800, refillSection);
@@ -248,4 +250,5 @@ document.addEventListener('DOMContentLoaded', () => {
 				abilSection.classList.add('abil_animated-fade');
 				setTimeout(hideSection, 800, abilSection);
 			});
+			
 		});

@@ -1,15 +1,20 @@
 .logotype {
     width: 666px;
     height: 553px;
-    z-index: -1;
-    position: absolute;
-    top: 35px;
-    left: 0;
-    &__img {
-        height: 100%;
-        width: 70%;
+    background: url('../logo/logo_svg.svg') center center/cover no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: -690px;
+    transform: translateY(530px);
+    // &_animated-logo {
+    //     animation-name: showLogo;
+    //     animation-duration: 8s;
+    //     animation-fill-mode: forwards;
+    // }
     }
-}
+
+
 
 .blot {
     width: 314px;
@@ -31,5 +36,3 @@
         width: 100%;
     }
 }
-
-
